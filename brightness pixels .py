@@ -167,7 +167,7 @@ class BrightnessAnalyzer:
 
 ⏰ 分析时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 """
-            
+
             self.result_text.insert(tk.END, result_str)
             
             # 生成图表
